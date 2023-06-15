@@ -12,3 +12,4 @@ class person(models.Model):
     age=models.IntegerField(default=0,null=True)
     email=models.EmailField()
     gender=models.CharField(max_length=1,choices=gender)
+s
